@@ -10,7 +10,7 @@
 
 /* Третичный цвет фона #F5F4FA */
 
-:root {
+/* :root {
   --title-text-color: #212121;
   --prymary-text-color: #757575;
   --accent-text-color: #2196f3;
@@ -20,18 +20,12 @@
   --accent-bt-color: #2196f3;
   --accent-prymary-color: #188ce8;
   --prymary-client-color: #afb1b8;
-}
+} */
 
-body {
+/* body {
   background-color: #ffffff;
   color: #212121;
   font-family: Roboto, sans-serif;
-}
-
-.list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 a {
@@ -40,16 +34,22 @@ a {
 
 img {
   display: block;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3 {
   margin: 0 auto;
   padding: 0;
 }
 
-.section {
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+} */
+
+/* .section {
   max-width: 1600px;
   margin: 0 auto;
 }
@@ -59,11 +59,11 @@ h3 {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
 /* Logo */
 
-.logo {
+/* .logo {
   display: block;
   color: var(--title-text-color);
   font-family: Raleway;
@@ -74,9 +74,9 @@ h3 {
 
 .logo__web--blue {
   color: var(--accent-text-color);
-}
+} */
 
-.button-prymary {
+/* .button-prymary {
   display: inline-block;
   border-radius: 4px;
 
@@ -102,7 +102,7 @@ h3 {
 .button-prymary:focus {
   background-color: var(--accent-prymary-color);
   color: var(--secondary-text-color);
-}
+} */
 
 /* Header */
 
@@ -115,9 +115,10 @@ h3 {
   align-items: center;
 }
 
+/* page-header */
 /* site-nav */
 
-.main-nav {
+/* .main-nav {
   display: flex;
   align-items: center;
 }
@@ -198,13 +199,13 @@ h3 {
 .contact-link__icon {
   margin-right: 10px;
   fill: currentColor;
-}
+} */
 
 /* index.html */
 
 /* Hero */
 
-.hero__section {
+/* .hero__section {
   padding-top: 200px;
   padding-bottom: 200px;
 
@@ -236,11 +237,11 @@ h3 {
   display: inline-block;
   margin-top: 30px;
   padding: 10px 32px;
-}
+} */
 
 /* Effective solutions */
 
-.solutions__section {
+/* .solutions__section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -294,11 +295,11 @@ h3 {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
+} */
 
 /* What are we engage */
 
-.engage__section {
+/* .engage__section {
   padding-bottom: 94px;
 }
 
@@ -347,11 +348,11 @@ h3 {
   line-height: 16px;
   letter-spacing: 1.14;
   color: var(--secondary-text-color);
-}
+} */
 
 /* Our team */
 
-.team__section {
+/* .team__section {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--prymary-bt-color);
@@ -410,9 +411,9 @@ h3 {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
+} */
 
-.social-network {
+/* .social-network {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -443,11 +444,11 @@ h3 {
 .social-network__link:hover .social-network__icon--fill,
 .social-network__link:focus .social-network__icon--fill {
   fill: #ffffff;
-}
+} */
 
 /* Regular clients */
 
-.clients__section {
+/* .clients__section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -492,11 +493,11 @@ h3 {
 .client-logo__link:hover .client-logo__icon,
 .client-logo__link:focus .client-logo__icon {
   fill: var(--accent-bt-color);
-}
+} */
 
 /* Footer */
 
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--background-fone-color);
@@ -573,9 +574,9 @@ h3 {
   line-height: 16px;
   letter-spacing: 1.14;
   color: var(--secondary-text-color);
-}
+} */
 
-.social-network {
+/* .social-network {
   display: flex;
   gap: 10px;
 }
@@ -610,9 +611,9 @@ h3 {
   display: flex;
   flex-direction: column;
   margin-left: 93px;
-}
+} */
 
-.mailing-form__field {
+/* .mailing-form__field {
   display: flex;
   gap: 12px;
   padding: 0;
@@ -655,13 +656,13 @@ h3 {
   gap: 10px;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* portfolio.html */
 
 /* Filter work */
 
-.section-portfolio {
+/* .section-portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -707,11 +708,11 @@ h3 {
   color: var(--secondary-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /* Our work */
 
-.work-list {
+/* .work-list {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
@@ -812,11 +813,11 @@ h3 {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-}
+} */
 
 /* Modal form */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -1049,4 +1050,4 @@ h3 {
 .mailing-btn-close:hover,
 .mailing-btn-close:focus {
   fill: var(--accent-bt-color);
-}
+} */
