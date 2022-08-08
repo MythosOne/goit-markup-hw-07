@@ -8,12 +8,14 @@
   --accent-bt-color: #2196f3;
   --accent-prymary-color: #188ce8;
   --prymary-client-color: #afb1b8;
+  --prymary-font: Roboto, sans-serif;
+  --logo-font: Raleway;
 }
 
 body {
   background-color: #ffffff;
   color: #212121;
-  font-family: Roboto, sans-serif;
+  font-family: var(--prymary-font);
 }
 
 a {
@@ -38,7 +40,6 @@ h3 {
 }
 
 .section {
-  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -52,7 +53,7 @@ h3 {
 .logo {
   display: block;
   color: var(--title-text-color);
-  font-family: Raleway;
+  font-family: var(--logo-font);
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -169,6 +170,7 @@ h3 {
 }
 
 .hero__section {
+  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
