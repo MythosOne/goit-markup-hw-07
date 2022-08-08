@@ -53,7 +53,7 @@ h3 {
 .logo {
   display: block;
   color: var(--title-text-color);
-  font-family: var(--logo-font);
+  font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -82,6 +82,19 @@ h3 {
 .button-prymary:hover, .button-prymary:focus {
   background-color: var(--accent-prymary-color);
   color: var(--secondary-text-color);
+}
+
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main-nav {
